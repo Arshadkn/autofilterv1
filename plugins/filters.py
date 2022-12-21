@@ -55,7 +55,7 @@ async def filter(client: Bot, message: Message):
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
             )
             await message.reply_text(
-                f"<b>Hai 👋 Arshad 😍📁 Found ✨  Files For Your Query : {message.text}👇 </b>",
+                f"<b>Hai 👋  {} 😍📁 Found ✨  Files For Your Query : {message.text}👇 </b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
             )
             return
